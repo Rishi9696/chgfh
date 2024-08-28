@@ -1,1 +1,1 @@
-# chgfh
+OPENAI_API_KEY=Lnr0O5x3MB5rGpCDoPoV11pxHe5QhVl77aYtOWLv
