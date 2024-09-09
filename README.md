@@ -1,30 +1,24 @@
-OPENAI_API_KEY=Lnr0O5x3MB5rGpCDoPoV11pxHe5QhVl77aYtOWLv
-
-These are scorecard targets for HL(Home Loan) for RM/SRM( RM is relationship manager, SRM is Senior Relationship Manager)
-Targets for RM/SRM in rupees:
-For 0-90 days vintage, for metro cities-11 lakhs, for tier 1 cities-7 lakhs, for tier 2/3 cities-5 lakhs.
-For 91-180 days vintage, for metro cities-22 lakhs, for tier 1 cities-13 lakhs, for tier 2/3 cities-10 lakhs
-For 181-270 days vintage, for metro cities-32 lakhs, for tier 1 cities-20 lakhs, for tier 2/3 cities-15 lakhs.
-For days, more than 270, for metro cities-35 lakhs, for tier 1 cities-22 lakhs, and for tier 2/3 cities-17 lakhs.
-
-Incentive slabs:
-There are three types of home loan(HL). One is a Mass affluent Housing loan, the second one is an Affordable Housing Loan, and the Third One is a Budget Housing Loan. These loan can be done via two ways: one is Channel Sourcing, and the second one is Direct sourcing. Below are the incentives for each type of loan:
-If the target achieved is less than 80%, for MA(mass affluent) via channel sourcing and direct sourcing, it is 0.05% and 0.08% respectively.
-If the target achieved is between 80 and 99.99% , for MA(mass affluent) via channel sourcing and direct sourcing, it is 0.08% and 0.12%, respectively.
-If the target achieved is between 100 and 149.99%, for MA(mass affluent) via channel sourcing and direct sourcing, it is 0.16% and 0.24%, respectively.
-If the target achieved is less than 80%, for AF(Affordable housing) via channel sourcing and direct sourcing, it is 0.07% and 0.11%, respectively.
-If the target achieved is between 80 and 99.99%, for AF(Affordable housing) via channel sourcing and direct sourcing, it is 0.10% and 0.16%, respectively.
-If the target achieved is between 100 and 149.99%, for AF(Affordable housing) via channel sourcing and direct sourcing, it is 0.21% and 0.32%, respectively.
-If the target achieved is less than 80%, for BH(Budget Housing) via channel sourcing and direct sourcing, it is 0.12% and 0.18%, respectively.
-If the target achieved is between 80 and 99.99%, for BH(Budget Housing) via channel sourcing and direct sourcing, it is 0.15% and 0.23%, respectively.
-If the target achieved is between 100 and 149.99%, for BH(Budget Housing) via channel sourcing and direct sourcing, it is 0.31% and 0.47%, respectively.
+Application of TQWT based filter-bank for sleep apnea screening using ECG signals
+•	sleep apnea is a disease in which there is the absence of airflow during respiration for at least 10 s. 
+•	It may occur several times during the night sleep. 
+•	cardiovascular diseases. 
+•	 To detect this disease, signals obtained from many channels of polysomnography are to be observed visually by physicians for the long duration.
+•	A polysomnogram (PSG), or sleep study, measures a number of variables to assess sleep disturbances: 
+•	Electroencephalogram (EEG): Measures brain activity 
+•	Electrocardiogram (ECG): Measures heart activity 
+•	Pulse oximetry: Measures oxygen saturation 
+•	Airflow: Measures nasal and oral airflow 
 
 
-
-
-
-
-
-
-
+•	Symptoms include loud snoring, gasping or choking during the night, and morning headaches.
+•	procedure is expensive, time-consuming, and subjective. 
+•	Hence, it is required to build an automated system to detect the sleep apnea with few channels. 
+•	This paper uses single-lead electrocardiogram (ECG) signal to detect apneic and non-apneic events. 
+•	The proposed method uses tunable-Q wavelet transform (TQWT) based filter-bank instead of TQWT to decompose the segment of ECG signal into several constant bandwidth sub-band signals. 
+•	It is a technique that creates a multiresolution analysis (MRA) with a user-specified Q-factor.
+•	Then centered correntropies are computed from the various sub-band signals. The obtained features are then fed to the various classifiers to select the optimum performing classifier. 
+•	The measure of similarity normally utilized in statistical signal processing
+•	In this work, we have obtained the highest classification accuracy, specificity, and sensitivity of 92.78%, 93.91%, and 90.95% respectively using random forest classifier. 
+•	Random forest is that combines the output of multiple decision trees to reach a single result.
+ 
 
